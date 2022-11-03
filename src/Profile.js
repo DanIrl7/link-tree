@@ -1,10 +1,9 @@
 import React from "react";
-import image from "./image1.jpg";
+import image from "./image2.jpg";
 
 export default function Profile() {
   return (
     <div className="profile-card">
-      <h1>Link Tree</h1>
       <p>Daniel Masona</p>
       <div className="profile-pic">
         {" "}
