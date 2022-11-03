@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Gloria+Hallelujah&family=Indie+Flower&family=Kalam:wght@300&family=Quicksand:wght@300&display=swap');
+
+
+/* 
+
+rgb(255, 82, 82);
+*/
+
+* {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(22, 22, 22);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #011e29;
+}
+
+#slack {
+  display: none;
+}
+
+.profile-pic img {
+  height: 110px;
+  width: 90px;
+  border-radius: 50%;
+  border: 5px solid #083a4d;
+}
+
+.profile-card {
+  background-color: #0c5670;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.links-btns {
+  margin: 20px 7rem;
+}
+
+.link-btn {
+  text-decoration: none;
+  margin: 10px;
+  padding: 25px;
+  background-color: #0c5670;
+  border-radius: 10px;
+}
+
+.link-btn:hover {
+  scale: 1.1;
+  transition: ease 0.3s;
+  background-color: #083a4d;
+}
+
+a {
+  color: #529ec7;
+  text-decoration: none;
+}
